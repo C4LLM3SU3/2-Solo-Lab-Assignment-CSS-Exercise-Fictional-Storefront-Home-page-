@@ -1,0 +1,271 @@
+
+body {
+    margin: 20px 40px 40px 20px;
+}
+
+
+.body {
+    background-image: url("ecogroove bg image.png");
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.main-layout {
+    display: flex;
+    margin-top: 5px;
+    height: 750px;
+}
+
+.nav,
+.product-sales,
+.aside {
+    width: 33%;
+    text-align: center;
+    border: solid;
+    border-color: #a19370;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+.nav-link {
+    margin: 0 15px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links div {
+    margin-top: 15px;
+}
+
+.nav-links li a:hover {
+    color: #fffac8;
+
+}
+
+
+.nav-btn {
+    margin-top: 40px;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff9900;
+
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-btn a:hover {
+    background-color: #cc7a00;
+ 
+}
+
+.product-sales {
+    background-color: #cfc7aa;
+    text-align: center;
+    color: #333;
+}
+
+
+
+.product-sales h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #9b7f5b;
+    
+    margin-bottom: 30px;
+}
+
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.product-card {
+    background-color: #ffedd5;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.product-card h3 {
+    font-size: 1.5rem;
+    color: #038c7f;
+    margin-bottom: 10px;
+}
+
+
+.product-card .price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff9900;
+    margin-bottom: 10px;
+}
+
+
+.product-card .description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+.buy-btn {
+    background-color: #038c7f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.buy-btn:hover {
+    background-color: #026658;
+ 
+}
+
+
+
+
+.aside {
+
+    background-color: #cfc7aa;
+    text-align: center;
+    color: #333;
+}
+
+
+.aside h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #9b7f5b;
+    margin-bottom: 30px;
+}
+
+
+.ad-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.ad-card {
+    background-color: #ffedd5;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.ad-card h3 {
+    font-size: 1.5rem;
+    color: #038c7f;
+    margin-bottom: 10px;
+}
+
+.ad-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+.learn-more-btn,
+.subscribe-btn {
+    background-color: #038c7f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover,
+.subscribe-btn:hover {
+    background-color: #026658;
+}
+
+.ad-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.nav {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfc7aa;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #9b7f5b;
+    margin-bottom: 30px;
+}
